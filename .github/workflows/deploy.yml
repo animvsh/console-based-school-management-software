@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["claude/lillie-animated-site-UIkdP"]
+    branches: ["main", "claude/lillie-animated-site-UIkdP"]
     paths: ["site/**"]
   workflow_dispatch:
 
